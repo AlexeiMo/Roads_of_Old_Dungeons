@@ -60,9 +60,9 @@
   <a name="to_be"/>
   
  ## "To be" архитектура:
- 1. Диаграмма компонентов.
+ 1. Диаграмма компонентов. 
  ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ComponentDiagramToBe.png)
- 2. Диаграмма развертывания.
+ 2. Диаграмма развертывания. 
  ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/DeploymentDiagramToBe.png)
   
  <a name="part2"/>
@@ -73,14 +73,11 @@
  
  ## "As is" архитектура:
  1. Диаграмма компонентов.
- ![]
- (https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualComponents.jpg)
+ ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualComponents.jpg)
  2. Диаграмма развертывания.
- ![]
- (https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualDeployment.jpg)
+ ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualDeployment.jpg)
  3. Диаграмма классов
- ![]
- (https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualClassDiagramm.jpg)
+ ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualClassDiagramm.jpg)
  
  <a name="part3"/>
  
