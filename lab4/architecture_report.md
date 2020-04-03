@@ -71,11 +71,11 @@
  
  ## "As is" архитектура:
  1. Диаграмма компонентов.
- ![](https://github.com/pobozhnaya18/Price-Tag/blob/master/Documents/Diagrams/ComponentDiagram_As_Is.PNG)
+ ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualComponents.jpg)
  2. Диаграмма развертывания.
- ![](https://github.com/pobozhnaya18/Price-Tag/blob/master/Documents/Diagrams/DeploymentDiagram.PNG)
+ ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualDeployment.jpg)
  3. Диаграмма классов
- ![](https://github.com/pobozhnaya18/Price-Tag/blob/master/Documents/Diagrams/ClassDiagram_As_Is.jpg)
+ ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualClassDiagramm.jpg)
  
  <a name="part3"/>
  
