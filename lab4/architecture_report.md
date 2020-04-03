@@ -60,9 +60,9 @@
   <a name="to_be"/>
   
  ## "To be" архитектура:
- 1. Диаграмма компонентов. 
+ 1. Диаграмма компонентов.        
  ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ComponentDiagramToBe.png)
- 2. Диаграмма развертывания. 
+ 2. Диаграмма развертывания.      
  ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/DeploymentDiagramToBe.png)
   
  <a name="part2"/>
