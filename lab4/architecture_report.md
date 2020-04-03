@@ -73,11 +73,14 @@
  
  ## "As is" архитектура:
  1. Диаграмма компонентов.
- ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualComponents.jpg)
+ ![]
+ (https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualComponents.jpg)
  2. Диаграмма развертывания.
- ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualDeployment.jpg)
+ ![]
+ (https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualDeployment.jpg)
  3. Диаграмма классов
- ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualClassDiagramm.jpg)
+ ![]
+ (https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ActualClassDiagramm.jpg)
  
  <a name="part3"/>
  
