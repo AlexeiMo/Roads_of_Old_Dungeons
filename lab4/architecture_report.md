@@ -61,9 +61,9 @@
   
  ## "To be" архитектура:
  1. Диаграмма компонентов.
- ![](https://github.com/pobozhnaya18/Price-Tag/blob/master/Documents/Diagrams/ComponentDiagram_To_Be.PNG)
+ ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/ComponentDiagramToBe.png)
  2. Диаграмма развертывания.
- ![](https://github.com/pobozhnaya18/Price-Tag/blob/master/Documents/Diagrams/DeploymentDiagram.PNG)
+ ![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/Diagram/DeploymentDiagramToBe.png)
   
  <a name="part2"/>
  
