@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class EquipmentSlot : UIItem, IPointerClickHandler/*, IPointerEnterHandler, IPointerExitHandler*/
@@ -14,23 +15,37 @@ public class EquipmentSlot : UIItem, IPointerClickHandler/*, IPointerEnterHandle
     
     public new void OnPointerClick(PointerEventData eventData)
     {
-        if (this.SelectedItem.item != null)
+        if(eventData.button == PointerEventData.InputButton.Left)
         {
-            if (gearMainType == this.SelectedItem.item.gearMainType)
+            if (this.SelectedItem.item != null)
+            {
+                if (gearMainType == this.SelectedItem.item.gearMainType)
+                {
+                    UnSwapingItem?.Invoke();
+                    Swap();
+                    SwapingItem?.Invoke();
+                }
+            }
+            else
             {
                 UnSwapingItem?.Invoke();
                 Swap();
                 SwapingItem?.Invoke();
             }
         }
-        else
+        else if(eventData.button == PointerEventData.InputButton.Right && this.item != null && selectedItem.item == null)
         {
-            UnSwapingItem?.Invoke();
-            Swap();
-            SwapingItem?.Invoke();
+            menuItem.ActiveEquipmentMenu(transform.position.x, transform.position.y, this);
+            menuItem.gameObject.SetActive(true);
         }
+
     }
 
+    public void RemoveItem()
+    {
+        UnSwapingItem?.Invoke();
+        UpdateItem(null);
+    }
 /*    public void OnPointerEnter(PointerEventData eventData)
     {
         if(this.SelectedItem.item.gearMainType != this.gearMainType)

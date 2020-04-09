@@ -8,7 +8,21 @@ public class SkillCaster : MonoBehaviour
     
     public void CastSpell(Skill skill)
     {
+        if (skill.skillTarget == SkillTarget.CastOnOwner)
+            CastSkillOnCaster(skill);
+        else
+            CastSkillOnTarget(skill);
+    }
 
+
+    private void CastSkillOnCaster(Skill skill)
+    {
+        whoCaster.GetComponent<ISkillCaster>().CastSkillOnMe(skill);
+    }
+
+
+    private void CastSkillOnTarget(Skill skill)
+    {
 
     }
 }

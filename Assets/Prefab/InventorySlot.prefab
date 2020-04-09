@@ -93,6 +93,7 @@ MonoBehaviour:
   item: {fileID: 0}
   itemScenePresenter: {fileID: 4579034517327615793, guid: c0ba4f9422324474ba2c5a59a5b4c9d9,
     type: 3}
+  slot: {fileID: 4605788703650421130}
 --- !u!1 &2726294554092855828
 GameObject:
   m_ObjectHideFlags: 0

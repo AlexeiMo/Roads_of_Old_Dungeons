@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 622782573632980504}
   - component: {fileID: 5746495692922586685}
   - component: {fileID: 5172146864302627625}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: platform2Tilemap
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 154026702266851070}
   - component: {fileID: 8185204042092112322}
   - component: {fileID: 4930706545372114099}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -408,9 +408,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -931835063459565407, guid: f9555476b5d2ea14994e5dd67f377ffc,
-    type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: a2e2a83536d4eef45ace93d156eab562, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -418,7 +417,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!114 &149404716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,7 +436,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -449,7 +448,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 21300000, guid: c9006339b2156b142934eac2999ef67c, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -1175,9 +1174,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -931835063459565407, guid: f9555476b5d2ea14994e5dd67f377ffc,
-    type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: a2e2a83536d4eef45ace93d156eab562, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1185,7 +1183,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &1339378830
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1622,9 +1620,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -931835063459565407, guid: f9555476b5d2ea14994e5dd67f377ffc,
-    type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: a2e2a83536d4eef45ace93d156eab562, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1632,7 +1629,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &1614543008
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2140,9 +2137,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -931835063459565407, guid: f9555476b5d2ea14994e5dd67f377ffc,
-    type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: a2e2a83536d4eef45ace93d156eab562, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2150,7 +2146,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &1920777318
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2191,16 +2187,6 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 70759594}
-    - target: {fileID: 4149527712414501534, guid: 0ea85630768194f489a0fb705f660eef,
-        type: 3}
-      propertyPath: m_Value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4149527712515924998, guid: 0ea85630768194f489a0fb705f660eef,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4149527712515924998, guid: 0ea85630768194f489a0fb705f660eef,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -2209,6 +2195,11 @@ PrefabInstance:
     - target: {fileID: 4149527712515924998, guid: 0ea85630768194f489a0fb705f660eef,
         type: 3}
       propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149527712515924998, guid: 0ea85630768194f489a0fb705f660eef,
+        type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4149527712520780935, guid: 0ea85630768194f489a0fb705f660eef,
@@ -2333,12 +2324,12 @@ PrefabInstance:
       objectReference: {fileID: 1408755684}
     - target: {fileID: 4149527713051544479, guid: 0ea85630768194f489a0fb705f660eef,
         type: 3}
-      propertyPath: m_AnchorMax.y
+      propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4149527713051544479, guid: 0ea85630768194f489a0fb705f660eef,
         type: 3}
-      propertyPath: m_AnchorMax.x
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4149527713584055355, guid: 0ea85630768194f489a0fb705f660eef,
@@ -2360,6 +2351,22 @@ PrefabInstance:
       propertyPath: Priority
       value: 170
       objectReference: {fileID: 0}
+    - target: {fileID: 6827150265125543918, guid: 3240dddfa5d460340b18fbef548a588f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a2e2a83536d4eef45ace93d156eab562,
+        type: 3}
+    - target: {fileID: 6827150265125543918, guid: 3240dddfa5d460340b18fbef548a588f,
+        type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827150265125543918, guid: 3240dddfa5d460340b18fbef548a588f,
+        type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6827150265125543919, guid: 3240dddfa5d460340b18fbef548a588f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2370,6 +2377,17 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AcceptNewGame
       objectReference: {fileID: 0}
+    - target: {fileID: 6827150265125543919, guid: 3240dddfa5d460340b18fbef548a588f,
+        type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827150265125543919, guid: 3240dddfa5d460340b18fbef548a588f,
+        type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c9006339b2156b142934eac2999ef67c,
+        type: 3}
     - target: {fileID: 6827150266363125698, guid: 3240dddfa5d460340b18fbef548a588f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2395,10 +2413,37 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: NoAcceptNewGame
       objectReference: {fileID: 0}
+    - target: {fileID: 6827150266363125698, guid: 3240dddfa5d460340b18fbef548a588f,
+        type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827150266363125698, guid: 3240dddfa5d460340b18fbef548a588f,
+        type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c9006339b2156b142934eac2999ef67c,
+        type: 3}
     - target: {fileID: 6827150266363125699, guid: 3240dddfa5d460340b18fbef548a588f,
         type: 3}
       propertyPath: Priority
       value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827150266363125757, guid: 3240dddfa5d460340b18fbef548a588f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a2e2a83536d4eef45ace93d156eab562,
+        type: 3}
+    - target: {fileID: 6827150266363125757, guid: 3240dddfa5d460340b18fbef548a588f,
+        type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827150266363125757, guid: 3240dddfa5d460340b18fbef548a588f,
+        type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6827150266606962704, guid: 3240dddfa5d460340b18fbef548a588f,
         type: 3}

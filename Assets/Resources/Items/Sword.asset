@@ -15,12 +15,13 @@ MonoBehaviour:
   id: 0
   title: fdfdf
   description: dfdf
-  icon: {fileID: 21300000, guid: 722457268bcad2f4ebb4c3ee499643b3, type: 3}
-  rarity: 0
+  icon: {fileID: 21300000, guid: ce9da3d2a48d8b248b0d77ad5ff164f6, type: 3}
+  rarity: 1
   gearMainType: 0
   itemType: 0
-  listOfType: 000000000000000000000000
+  price: 200
+  listOfType: 050000000300000004000000
   listOfValue:
   - 10
-  - 10
-  - 10
+  - 150
+  - 100

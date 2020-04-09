@@ -9,9 +9,11 @@ public class RunScript : MonoBehaviour
     public Player player;
 
     public GameObject inventoryWindow;
+    public GameObject shop;
 
     public bool onStairs = false;
 
+    public GameObject skillWindow;
     public StraitsPlatform StraitsPlatform { get; set; }
 
 
@@ -33,6 +35,8 @@ public class RunScript : MonoBehaviour
                 player.Attack();
             if (Input.GetKeyDown(KeyCode.I))
                 inventoryWindow.SetActive(!inventoryWindow.activeSelf);
+            if (Input.GetKeyDown(KeyCode.O))
+                skillWindow.SetActive(!skillWindow.activeSelf);
         }
        
     }

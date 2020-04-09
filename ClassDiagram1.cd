@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="Camera" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAIAAACAAAIAAAAAAAAAAAAAAAAABAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Camera\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frame" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Code\Camera\Frame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCAAoAAgACEAAAAAAABAAAQAQAAEAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Code\Enemy\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyArch" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAiAAAACEAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Enemy\EnemyArch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyMelee" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIwWSAAAAigEgEiAgYwAgAMIgUABAABAADCgyCgQBCU=</HashCode>
+      <FileName>Assets\Code\Enemy\EnemyMelee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AlgorithmGeneration" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABFAAAABAAAAgAAAAABAAAAAABIAAgAADgAAAAYAA=</HashCode>
+      <FileName>Assets\Code\Generation\AlgorithmGeneration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerGeneration" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAEAA=</HashCode>
+      <FileName>Assets\Code\Generation\ControllerGeneration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndLenel" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Generation\EndLenel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemySpawn" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Generation\EnemySpawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GenerationContoller" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEABA=</HashCode>
+      <FileName>Assets\Code\Generation\GenerationContoller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Load" Collapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Generation\Load.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Start" Collapsed="true">
+    <Position X="14.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Code\Generation\Start.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileInfo" Collapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAADAAAAAAAAAAAAAIADAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Code\Generation\TileInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileList" Collapsed="true">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAEA=</HashCode>
+      <FileName>Assets\Code\Generation\TileList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileMap" Collapsed="true">
+    <Position X="11.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAEAAAAAgAAAIAAAAABgAAAAYAA=</HashCode>
+      <FileName>Assets\Code\Generation\TileMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextChar" Collapsed="true">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACAAAAAAAAAAAAAAgAAAAAAAAAQABACA=</HashCode>
+      <FileName>Assets\Code\HUD\TextChar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Equipment" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAAAAAAAEAAAAACAAAABAAAAKAAAAAAAg=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\Equipment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EquipmentSlot" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgACAAAEAAAAgAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\EquipmentSlot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FollowMousePosition" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\FollowMousePosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventory" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAQAQuACAAAEAAAAQEAAAAAAgEAAEEECiAAAAAEAA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAJQQAAAAAAAIAAAgAAAAAAAABAAAUACAIAAAhA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TakeNameOfAtribute" Collapsed="true">
+    <Position X="18.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAQAAAAAAAAAAAAAgAQAAAAAAACAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AtributeOfItem" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemDataBase" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAgAAAAABAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\ItemDataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemScenePresenter" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAACAAAAQAAAAAAEAAAAACAAAAAAAAEEA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\ItemScenePresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuItem" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAQAACAAAAAAAAAAAAAAAEAkAAAAACAIAkAAhAA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\MenuItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ShopInventory" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAIAAAAAAAAAAAAAAAIAEAiAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\ShopInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChanceOfDrop" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAACAAAAAAQA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\ShopInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopMenu" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\ShopMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopUIItem" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\ShopUIItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SingletonInventory" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAQAAAAAAAAAAACABAAIgAQACA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\SingletonInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TooltipForInventory" Collapsed="true">
+    <Position X="14.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAAAAAAAAAAAAAAACAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\TooltipForInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIInventory" Collapsed="true">
+    <Position X="16.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQEAAAAAAAAAAAAQIAAAAAAAAAAIAMAAAAAAQAGAA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\UIInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIItem" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAQAAgAAAAAAAAQQAAAQAAAhAAACADCCAQCQAGA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\UIItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AudioLogic" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\LevelLogical\AudioLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformLogic" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAAAAAAAAAAAAAEAAAAAAAEAgAAgAAAA=</HashCode>
+      <FileName>Assets\Code\LevelLogical\PlatformLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spikes" Collapsed="true">
+    <Position X="11.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\LevelLogical\Spikes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stairs" Collapsed="true">
+    <Position X="13" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACBAAAAAAIAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\LevelLogical\Stairs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StraitsPlatform" Collapsed="true">
+    <Position X="16.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAAAAAAAAAAAAIAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\LevelLogical\StraitsPlatform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallLogic" Collapsed="true">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAgAAAIAAA=</HashCode>
+      <FileName>Assets\Code\LevelLogical\WallLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioControllerForButton" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIAAAAAAAAAAAAAAAABAAAAACAIAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Menu\AudioControllerForButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChooseButton" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAARAAACAAAAAAAAAAAAAAAAgUAAAACAE=</HashCode>
+      <FileName>Assets\Code\Menu\ChooseButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoaderStatusBar" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAAAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Menu\LoaderStatusBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadStatus" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Code\Menu\LoadStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Main" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAIgAAAAAABAACABACAAAAQAEACAsAACAAAAAFE=</HashCode>
+      <FileName>Assets\Code\Menu\Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settings" Collapsed="true">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAEAIABAAAQAQAQEAAAEAAAAAAAAAAAAAAAAAAgBA=</HashCode>
+      <FileName>Assets\Code\Menu\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicController" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\MusicAndSoundController\MusicController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicLoaderAndController" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAADAAAAAAAAAAAAAAACEAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Code\MusicAndSoundController\MusicLoaderAndController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeginGame" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Code\Player\BeginGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthBar" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAAAAAAAAAAAAAAgAAAAAEACAAAAUAAAAE=</HashCode>
+      <FileName>Assets\Code\Player\HealthBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryContoller" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Code\Player\InventoryContoller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseController" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAABAAAAAAAAAAAAAAAAAAAAAAAACAAAAADAAAGA=</HashCode>
+      <FileName>Assets\Code\Player\PauseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQUiISAAqAAhABAAQUAAQEABIIAAEx4AACAQSKAAEo=</HashCode>
+      <FileName>Assets\Code\Player\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyEvents" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Player\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStats" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAIcGAECwAAMAAQAACAQgAMCBGAAABQAAAoAAQgFI=</HashCode>
+      <FileName>Assets\Code\Player\PlayerStats.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RunScript" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAAAAAAAAABAAAGAAAIAAABgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Player\RunScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop" Collapsed="true">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACBAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Player\Shop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skill" Collapsed="true">
+    <Position X="16.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQQAAAAAAAIAAAAAAAACAAAAAAAQAAAABAAhA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\Skill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkillCaster" Collapsed="true">
+    <Position X="18.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABACAAAAAAA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\SkillCaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkillDataBase" Collapsed="true">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\SkillDataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkillInventory" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAgCAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\SkillInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkillScenePresenter" Collapsed="true">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\SkillScenePresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UISkill" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQAIgAAAABAAAAAAAAAAAAAAAAAAAQAAAAAEkA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\UISkill.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UISkillManager" Collapsed="true">
+    <Position X="6" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQCAAAAAAAAAAAAQAAAAAAAAAAAIAMAAAAAAQAGAA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\UISkillManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIPLayerStats" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAEAQAAAAAQAAAAAABAAACACQAAAAQAAAAiEo=</HashCode>
+      <FileName>Assets\Code\HUD\UIPLayerStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IAlive" Collapsed="true">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Code\Player\IAlive.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISkillCaster" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\ISkillCaster.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Rarity" Collapsed="true">
+    <Position X="9.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAQgAIIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\Item.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TypeOfAtribute" Collapsed="true">
+    <Position X="6" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAFAAAAAAAAAABAAAAAAAAQIBAAAAAAAAAAgAAACA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\Item.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GearMainType" Collapsed="true">
+    <Position X="6" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAIgAEAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\Item.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ItemType" Collapsed="true">
+    <Position X="7.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\Code\Inventory and Item\Item.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SkillTarget" Collapsed="true">
+    <Position X="16.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\Skill.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SkillType" Collapsed="true">
+    <Position X="18.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\Skill.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SkillAtributeProperties" Collapsed="true">
+    <Position X="14.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAQAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\Skill.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SkillAtributePassivePart" Collapsed="true">
+    <Position X="13" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\Skill.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SkillAtributeActivePart" Collapsed="true">
+    <Position X="11.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACARACAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\SpellSystem\Skill.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

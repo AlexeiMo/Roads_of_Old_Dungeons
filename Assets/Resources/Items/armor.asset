@@ -19,5 +19,8 @@ MonoBehaviour:
   rarity: 0
   gearMainType: 1
   itemType: 0
-  listOfType: 
-  listOfValue: []
+  price: 100
+  listOfType: 0000000002000000
+  listOfValue:
+  - 10
+  - 5

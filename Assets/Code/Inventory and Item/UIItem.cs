@@ -1,38 +1,52 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class UIItem : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    [Header("Название окон, которые используются")]
+/*    [Header("Название окон, которые используются")]
     public string inventoryName = "Inventory";
     public string selectedItemName = "SelectedItem";
     public string tooltipName = "TooltipInventory";
     public string menuItemName = "Menu";
 
-
+*/
 
 
     public Item item;
     public ItemScenePresenter itemScenePresenter;
     protected Image spriteImage;
-    protected UIItem selectedItem;
-    protected TooltipForInventory tooltip;
-    protected Inventory inventory;
-    protected MenuItem menuItem;
+    [SerializeField] protected UIItem selectedItem;
+    [SerializeField] protected TooltipForInventory tooltip;
+    [SerializeField] protected Inventory inventory;
+    [SerializeField] protected MenuItem menuItem;
+
+    public GameObject slot;
+    public event Action Droping; 
 
     public UIItem SelectedItem { get => selectedItem; }
 
     protected void Awake()
     {
         spriteImage = GetComponent<Image>();
+        
         UpdateItem(null);
-        selectedItem = GameObject.Find(selectedItemName).GetComponent<UIItem>();
+        /*selectedItem = GameObject.Find(selectedItemName).GetComponent<UIItem>();
         tooltip = GameObject.Find(tooltipName).GetComponent<TooltipForInventory>();
         inventory = GameObject.Find(inventoryName).GetComponent<Inventory>();
-        menuItem = GameObject.Find(menuItemName).GetComponent<MenuItem>();
+        menuItem = GameObject.Find(menuItemName).GetComponent<MenuItem>();*/
+        if(slot!=null)
+            slot.transform.localScale = new Vector3(1, 1, 1); 
     }
 
+    public void Initialization(SingletonInventory singletonInventory)
+    {
+        selectedItem = singletonInventory.SelectedItem;
+        tooltip = singletonInventory.Tooltip;
+        inventory = singletonInventory.Inventory;
+        menuItem = singletonInventory.MenuItem;
+    }
     public void UpdateItem(Item item)
     {
         this.item = item;
@@ -50,16 +64,22 @@ public class UIItem : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler,
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        
         if (eventData.button == PointerEventData.InputButton.Left)
         {
             Swap();
         }
         else if (eventData.button == PointerEventData.InputButton.Right && this.item != null && selectedItem.item == null)
         {
-            tooltip.gameObject.SetActive(false);
-            menuItem.gameObject.SetActive(true);
-            menuItem.ActiveMenu(transform.position.x, transform.position.y, this);
+            ClickOnRightButton();
         }      
+    }
+
+    protected void ClickOnRightButton()
+    {
+        tooltip.gameObject.SetActive(false);
+        menuItem.gameObject.SetActive(true);
+        menuItem.ActiveMenu(transform.position.x, transform.position.y, this);
     }
 
     public void DropItem()
@@ -98,7 +118,6 @@ public class UIItem : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler,
 
     public void OnPointerExit(PointerEventData eventData)
     {
-       // if(!tooltip.IsMouseOnMe)
             tooltip.gameObject.SetActive(false);
     }
 
@@ -106,7 +125,6 @@ public class UIItem : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler,
     {
         if (this.item != null)
         {
-         //   tooltip.IsMouseOnMe = true;
             tooltip.GenerateToolTip(this.item);
         }
     }

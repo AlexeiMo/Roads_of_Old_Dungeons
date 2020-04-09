@@ -8,8 +8,8 @@ public class Shop : MonoBehaviour
     [SerializeField] private GameObject shopManager;
     public void Start()
     {
-        //shopManager = GameObject.Find("ShopWindow").GetComponent<ShopManager>();        
-        Invoke("Disable", 0.5f);
+        shopManager = GameObject.Find("Player").GetComponent<RunScript>().shop;        
+       // Invoke("Disable", 0.5f);
     }
 
     private void Disable()
@@ -18,18 +18,18 @@ public class Shop : MonoBehaviour
     }
     public void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player")&&Input.GetKeyDown(KeyCode.E))
         {
-            shopManager.gameObject.SetActive(true);
+             shopManager.gameObject.SetActive(true);
         }
     }
-    public void OnTriggerEnter2D(Collider2D collision)
+  /*  public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             shopManager.gameObject.SetActive(true);
         }
-    }
+    }*/
 
     public void OnTriggerExit2D(Collider2D collision)
     {

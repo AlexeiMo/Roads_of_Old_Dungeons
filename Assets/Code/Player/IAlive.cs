@@ -4,5 +4,6 @@ using UnityEngine;
 
 public interface IAlive 
 {
-    void TakeDamage(float damage);
+    int TakeDamage(float damage);
+ 
 }

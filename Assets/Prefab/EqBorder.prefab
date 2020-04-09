@@ -165,7 +165,13 @@ MonoBehaviour:
   tooltipName: TooltipInventory
   menuItemName: Menu
   item: {fileID: 0}
-  itemScenePresenter: {fileID: 0}
+  itemScenePresenter: {fileID: 4579034517327615793, guid: c0ba4f9422324474ba2c5a59a5b4c9d9,
+    type: 3}
+  selectedItem: {fileID: 0}
+  tooltip: {fileID: 0}
+  inventory: {fileID: 0}
+  menuItem: {fileID: 0}
+  slot: {fileID: 0}
   gearMainType: 0
 --- !u!1 &4902821482487199708
 GameObject:

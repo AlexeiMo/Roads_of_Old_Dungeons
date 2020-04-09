@@ -1,25 +1,32 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UIElements;
+﻿using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-public class TextChar : MonoBehaviour 
+public class TextChar : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    public Tooltip tooltip;
+    [SerializeField] Text textValue;
 
-    public void OnMouseExit()
+    [SerializeField] TooltipForInventory tooltip;
+
+    [Header("If Misc/Consumable")]
+    [TextArea(3, 10)]
+
+    [SerializeField] string tooltipText;
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        tooltip.GenerateToolTip(tooltipText);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
     {
         tooltip.gameObject.SetActive(false);
-        GUI.Label(new Rect(gameObject.transform.position,new Vector2( 100, 50)), GUI.tooltip);
-    }
-    public void OnGUI()
-    {        
-        //GUI.Button(new Rect(gameObject.transform.position,new Vector2( 100, 50)),new GUIContent( "sdsdfdsfdf", "jfhdfhjsdh"));
     }
 
-    public void OnMouseEnter()
+    public void UpdateValue(string newValue)
     {
-        tooltip.gameObject.SetActive(true);
-        Debug.Log("dsda");
+        textValue.text = newValue;
     }
+
+    
 }

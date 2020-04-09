@@ -164,7 +164,7 @@ MonoBehaviour:
     m_Bits: 256
   healthPoint: 100
   healthBar: {fileID: 2225495009032934687}
-  itemScenePresenter: {fileID: 5524851432403900629, guid: 31c5db73ea442504bb1ffbec20d3687b,
+  itemScenePresenter: {fileID: 4579034517327615793, guid: c0ba4f9422324474ba2c5a59a5b4c9d9,
     type: 3}
   damageOfEnemy: 10
   secDelayAttack: 1.5
@@ -177,6 +177,7 @@ MonoBehaviour:
   speedBullet: 5
   damageBullet: 10
   enemyTag: Player
+  EX: 100
 --- !u!95 &8488179280010935031
 Animator:
   serializedVersion: 3

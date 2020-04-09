@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class EnemyMelee : MonoBehaviour, IEnemy, IAlive
+public class EnemyMelee : MonoBehaviour, IAlive
 {
 
     private Transform _transform;
     private Rigidbody2D _rigidbody;
     private Animator animatorController;
+    private ItemDataBase dataBase;
 
 
     private float move = 1;
@@ -55,6 +56,8 @@ public class EnemyMelee : MonoBehaviour, IEnemy, IAlive
     public float damageBullet;
     public string enemyTag;
 
+
+    public int EX=100;
     private void Start()
     {
         healthBar.MaxHealthPoint = healthPoint;
@@ -62,6 +65,7 @@ public class EnemyMelee : MonoBehaviour, IEnemy, IAlive
         _transform = GetComponent<Transform>();
         _rigidbody = GetComponent<Rigidbody2D>();
         animatorController = GetComponent<Animator>();
+
         defaultSpeed = walkSpeed;
         move = 1;
         prefMove = 1;
@@ -69,6 +73,7 @@ public class EnemyMelee : MonoBehaviour, IEnemy, IAlive
 
     private void Update()
     {
+        dataBase = GameObject.Find("ItemDataBase").GetComponent<ItemDataBase>();
         RaycastHit2D groundInfo = Physics2D.Raycast(groundCheck.position, Vector2.down, 2f, groundMask);
         if (!groundInfo)
             Flip();
@@ -248,10 +253,15 @@ public class EnemyMelee : MonoBehaviour, IEnemy, IAlive
     }
 
 
-    public void TakeDamage(float damage)
+    public int TakeDamage(float damage)
     {
         healthBar.MinusCurrentValue(damage);
-        checkDamage();
+        if (checkDamage())
+        {
+            return EX;
+        }
+        else
+            return 0;
     }
 
     IEnumerator SleepFlip()
@@ -265,24 +275,24 @@ public class EnemyMelee : MonoBehaviour, IEnemy, IAlive
         }
 
     }
-    private void checkDamage()
+    private bool checkDamage()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, new Vector2(-move, 0), 4, enemyLayer);
         if (hit)
         {
             StartCoroutine(SleepFlip());
         }
+        return healthBar.currentValue < 0; 
     }
 
 
     private void Dead()
     {
-        //List<Item> items = DatabaseManager.Items;
-      ////  int i = Random.Range(0, DatabaseManager.Items.Count);
-       // ItemScene item =Instantiate(itemScenePresenter, new Vector2(gameObject.transform.position.x, gameObject.transform.position.y),new Quaternion());
-     //   item.Present(DatabaseManager.Items[i]);
-        //ShopManager.TestScenePlayerGold += 1000;
-        Destroy(gameObject);
+         List<Item> items = dataBase.items;
+         int i = Random.Range(0, dataBase.items.Count);
+         ItemScenePresenter item =Instantiate(itemScenePresenter, new Vector2(gameObject.transform.position.x, gameObject.transform.position.y),new Quaternion());
+         item.CreateItemOnScene(dataBase.items[i]);
+         Destroy(gameObject);
     }
    
 }

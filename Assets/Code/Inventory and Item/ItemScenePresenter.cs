@@ -24,7 +24,12 @@ public class ItemScenePresenter : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            inventory.GiveItem(this.item);
+            if(inventory.inventoryUI.isActiveAndEnabled)
+                 inventory.GiveItem(this.item);
+            else
+            {
+                inventory.characterItems.Add(item);
+            }
             Destroy(gameObject);
         }
     }

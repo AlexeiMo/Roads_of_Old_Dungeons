@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class Player : MonoBehaviour
@@ -38,6 +40,12 @@ public class Player : MonoBehaviour
 
     public bool IsBlockMove { set => isBlockMove = value; }
 
+
+    public event Action DealingDamage;
+
+    public MyEvents TakeEX;
+
+
     public void Move()
     {
         float move = Input.GetAxisRaw("Horizontal");
@@ -48,12 +56,20 @@ public class Player : MonoBehaviour
         else if (move < 0 && isFacingRight)
             Flip();
     }
-    private void Start()
+
+    private void Awake()
     {
         _transform = GetComponent<Transform>();
         _rigidbody = GetComponent<Rigidbody2D>();
         _animatorController = GetComponent<Animator>();
-
+        if (TakeEX == null)
+        {
+            TakeEX = new MyEvents();
+        }
+    }
+    private void Start()
+    {
+    
     }
 
     private void Update()
@@ -136,8 +152,9 @@ public class Player : MonoBehaviour
        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y-1), new Vector2(transform.localScale.x*attackDistance,0));
        if(raycastHit2D&&!iDealDamage)
        {
-           raycastHit2D.collider.GetComponent<IAlive>().TakeDamage(damage);
-            iDealDamage = true;
+           DealingDamage?.Invoke();
+           TakeEX.Invoke(raycastHit2D.collider.GetComponent<IAlive>().TakeDamage(damage));
+           iDealDamage = true;
        }
 
     }
@@ -168,4 +185,10 @@ public class Player : MonoBehaviour
         else _rigidbody.velocity = new Vector2(1* walkSpeed, _rigidbody.velocity.y);
 
     }
+}
+
+
+public class MyEvents: UnityEvent<int>
+{
+
 }

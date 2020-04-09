@@ -30,5 +30,6 @@ public class ItemDataBase : MonoBehaviour
             items.Add(elem);
             
         }
+        ChanceOfDrop.SortInventory(items);
     }
 }
