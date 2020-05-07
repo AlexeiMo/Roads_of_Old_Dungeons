@@ -24,6 +24,10 @@
 + Изменить некоторые элементы HUD для улучшения читаемости
 
 # Внешний вид приложения до улучшения:
-
+![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/lab_6/screenshots/menu_do.png)
+![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/lab_6/screenshots/HUD_do.png)
+![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/lab_6/screenshots/spravka_do.png)
 # Внешний вид приложения после улучшения:
-
+![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/lab_6/screenshots/menu_posle.png)
+![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/lab_6/screenshots/HUD_posle.png)
+![](https://github.com/RuslanGitelman/Roads_of_Old_Dungeons/blob/master/lab_6/screenshots/spravka_posle.png)
